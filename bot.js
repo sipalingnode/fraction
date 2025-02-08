@@ -47,7 +47,7 @@ Issued At: ${issuedAt}`;
     const payload = {
         message,
         signature: signature.signature,
-        referralCode: "66448E24"
+        referralCode: "F65B3BBD"
     };
 
     const loginData = await axios.post('https://dapp-backend-large.fractionai.xyz/api3/auth/verify', payload, {
